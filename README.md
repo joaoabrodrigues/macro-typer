@@ -6,7 +6,7 @@ Script para copiar o texto e digitar automaticamente após um delay em segundos 
 
  - python3, pip3, xclip, pynput
 
-`sudo apt-get install python3, pip3, xclip`
+`sudo apt install python3, pip3, xclip`
 
 `pip3 install pynput`
 
