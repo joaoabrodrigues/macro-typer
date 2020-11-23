@@ -4,11 +4,11 @@ Script para copiar o texto e digitar automaticamente após um delay em segundos 
 
 ## Requisitos e pré instalação
 
- - python3, pip3, xclip, pynput
+ - python3, pip3, pynput, clipboard
 
-`sudo apt-get install python3, pip3, xclip`
+`sudo apt-get install python3, pip3`
 
-`pip3 install pynput`
+`pip3 install pynput clipboard`
 
 ## Como usar
 
