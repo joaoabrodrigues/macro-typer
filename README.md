@@ -1,12 +1,12 @@
 # macro-typer
 
-Script para copiar o texto e digitar automaticamente após um delay em segundos (fixado em 2, pode ser personalizado em paste.py).
+Script para copiar o texto e digitar automaticamente após um delay em segundos (fixado em 0.5, pode ser personalizado em paste.py).
 
 ## Requisitos e pré instalação
 
  - python3, pip3, pynput, clipboard
 
-`sudo apt-get install python3, pip3`
+`sudo apt install python3 pip3`
 
 `pip3 install pynput clipboard`
 
@@ -21,4 +21,5 @@ O script pegará o que estiver na área de transferência e colará após o dela
 ## Dica
 
 Para uma melhor experiência, é interessante criar um atalho customizado no teclado, que executará o comando citado anteriormente.
+
 Sendo assim, é possível usar Ctrl+C e depois o seu atalho customizado (por exemplo: Ctrl+Alt+V) para colar.
