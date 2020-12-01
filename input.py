@@ -1,7 +1,5 @@
 import time
-
 from pynput.keyboard import Controller
-
 
 class KeyboardInput:
 
