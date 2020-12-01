@@ -4,7 +4,7 @@ Script para copiar o texto e digitar automaticamente após um delay em segundos 
 
 ## Requisitos 
 
- - python3, pip3, pynput, clipboard
+ - python3, pip3, pynput, pyperclip
 
 ## Pré instalação
 `sudo apt install python3, pip3, xclip`
