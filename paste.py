@@ -11,8 +11,8 @@ parser.add_argument('-u', '--uppercase', action='store_true', help='Convert text
 args = parser.parse_args()
 
 delay = args.delay or DEFAULT_DELAY
-
 text = args.text or pyperclip.paste()
+
 if args.uppercase:
     text = text.upper()
 
