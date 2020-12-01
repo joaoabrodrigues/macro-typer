@@ -1,22 +1,35 @@
 # macro-typer
 
-Script para copiar o texto e digitar automaticamente após um delay em segundos (fixado em 0.5, pode ser personalizado em paste.py).
+Script para copiar o texto e digitar automaticamente após um delay em segundos (default 2 segundos).
 
-## Requisitos e pré instalação
+## Requisitos 
 
  - python3, pip3, pynput, clipboard
 
-`sudo apt install python3 pip3`
+## Pré instalação
+`sudo apt install python3, pip3, xclip`
 
-`pip3 install pynput clipboard`
+`pip3 install pynput pyperclip`
 
 ## Como usar
 
-Rode o comando no terminal:
+Uso:   
 
-`python3 paste.py`
+`python3 paste.py [-h] [-d N] [-t TEXT] [-u]`
 
-O script pegará o que estiver na área de transferência e colará após o delay configurado.
+Argumentos opicionais:  
+```
+  -h, --help            show this help message and exit  
+  -d N, --delay N       Time delay to paste (in seconds)  
+  -t TEXT, --text TEXT  Text to be typed  
+  -u, --uppercase       Convert text to Uppercase
+```
+Exemplo:
+
+`python3 paste.py --delay=1`
+
+O script pegará o que estiver na área de transferência e colará após o delay configurado(no caso 1 segundo).
+
 
 ## Dica
 
